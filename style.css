@@ -165,6 +165,9 @@
   iframe {
     width: 90%;
   }
+  .transparent-img {
+    border: none;
+  }
   /* responsive */
   @media only screen and (max-height: 740px){
     .left {
