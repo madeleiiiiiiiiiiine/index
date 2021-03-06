@@ -125,6 +125,7 @@
   #update {
     color: black;
     font-weight: 200;
+    width: 500px;
   }
   .right {
     display: flex;
@@ -140,16 +141,22 @@
     margin: 20px 0px;
     display: block;
     width: 90%;
+    border-radius: 15px;
+    border: solid 0.33px white;
   }
   .spot {
     margin: 0px;
     width: 250px;
+    border: none;
   }
   .arial {
     font-family: Arial, Helvetica, sans-serif;
   }
   #end {
     margin: 10px 0px 5% 0px;
+  }
+  #endlink {
+    color: white;
   }
   ::selection {
     color: white;
@@ -301,7 +308,7 @@
     }
     h2 {
       font-size: 18px;
-      margin: 5px;
+      margin: 0px 5px;
     }
     h3 {
       font-size: 20px;
@@ -332,6 +339,7 @@
     #update {
       margin-top: 20px;
       margin-bottom: 30px;
+      width: 300px;
     }
   }
 
@@ -344,10 +352,12 @@
 ::-webkit-scrollbar-track {
   background: linear-gradient(#b3d5e8, #cef0c8, #eed2b8, #fad8eb, #d9cafa);
   border-radius: 0px;
+  border: solid 0.33px white;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: black;
   border-radius: 15px;
+  border: solid 0.33px white;
 }
