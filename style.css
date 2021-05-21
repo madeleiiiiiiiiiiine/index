@@ -48,8 +48,8 @@
 
   h1 {
     margin: 0 85px 20px 85px;
-    font-family: Apoc-Revelations, serif;
-    font-weight: 300;
+    font-family: ivypresto-headline,serif;
+    font-weight: 100;
     font-style: normal;
     font-size: 42px;
     line-height: 50px;
@@ -77,8 +77,8 @@
   }
 
   h3 {
-    font-family: Apoc-Revelations, serif;
-    font-weight: 300;
+    font-family: ivypresto-headline,serif;
+    font-weight: 100;
     font-style: normal;
     font-size: 28px;
     line-height: 38px;
@@ -103,8 +103,8 @@
   }
   address {
     margin: 0px 90px 20px 90px;
-    font-family: Apoc-Revelations, serif;
-    font-weight: 300;
+    font-family: ivypresto-headline,serif;
+    font-weight: 100;
     font-style: normal;
     font-size: 28px;
     line-height: 46px;
@@ -146,7 +146,7 @@
   }
   .spot {
     margin: 0px;
-    width: 250px;
+    width: 180px;
     border: none;
   }
   .arial {
