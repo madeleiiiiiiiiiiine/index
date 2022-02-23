@@ -47,12 +47,12 @@
 }
 
   h1 {
-    margin: 0 85px 20px 85px;
+    margin: 0 50px 20px 50px;
     font-family: ivypresto-headline,serif;
     font-weight: 100;
     font-style: normal;
-    font-size: 42px;
-    line-height: 50px;
+    font-size: 48px;
+    line-height: 56px;
   }
   .dot {
     height: 18px;
@@ -63,7 +63,7 @@
   }
   
   .left-info {
-    margin: 20px 110px 30px 110px;
+    margin: 20px 110px 20px 110px;
     font-family: 'Syne', sans-serif;
   }
   h2 {
@@ -106,7 +106,7 @@
     font-family: ivypresto-headline,serif;
     font-weight: 100;
     font-style: normal;
-    font-size: 28px;
+    font-size: 32px;
     line-height: 46px;
   }
   a {
@@ -117,6 +117,10 @@
   }
   .left-link {
     color: white;
+  }
+
+  #address-top-left {
+    margin: 0px 90px 10px 90px;
   }
   #address-right {
     font-size: 24px;
@@ -146,7 +150,7 @@
   }
   .spot {
     margin: 0px;
-    width: 180px;
+    width: 130px;
     border: none;
   }
   .arial {
@@ -167,6 +171,10 @@
   }
   .transparent-img {
     border: none;
+  }
+
+  #italic {
+    
   }
   /* responsive */
   @media only screen and (max-height: 740px){
