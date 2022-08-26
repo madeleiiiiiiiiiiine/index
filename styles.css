@@ -1,0 +1,39 @@
+body {
+    background-image: linear-gradient(#FFD7F4,#DDFFB2);
+}
+
+section {
+    width: 60%;
+    margin: 10% 20% 10% 20%;
+    align-items: center;
+}
+
+@font-face {
+    font-family: WremenaLight;
+    src: url(WremenaLight.woff);
+}
+p {
+    font-family: WremenaLight;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    color: #0D0D0D;
+}
+
+a {
+    color: #0D0D0D;
+}
+
+a:hover {
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        width: 80%;
+        margin: 10% 10% 10% 10%;
+    }
+    p {
+        font-size: 1.6rem;
+        line-height: 2.7rem;
+    }
+  }
